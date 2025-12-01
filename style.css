@@ -1,11 +1,50 @@
 /*Add your CSS here*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  size: 50px;
+}
+
+h2 {
+  color: hotpink;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  color: purple;
+  font-style: italic;
+}
+
+a:link {
+  color: deeppink;
+}
+
+a:visited {
+  color: mediumvioletred;
+}
+
+a:hover {
+  color: palevioletred;
+}
+
+a:active {
+  color: pink;
+}
 
 
-
-
-
-
-
+footer a:hover {
+text-decoration: none;
+}
 
 
 /*No touch*/
